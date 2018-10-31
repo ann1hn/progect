@@ -1,0 +1,89 @@
+    /* ####################################################
+    :: Template Name: Essence - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+    :: Version: 1.0.0
+    :: Created: April 27, 2018
+    :: Last Updated: May 2, 2018
+    #################################################### */
+
+    /* ---------------------------------------
+    ##### - PLACE YOUR CUSTOM CSS HERE - #####
+    --------------------------------------- */
+	
+  .body {
+	   background-color: #ccd6eb !important;
+  }	
+	
+ .classy-nav-container {
+    background-color: #ccd6eb !important;
+}
+
+ .title {
+	 color: #3a8652 !important; 
+ }
+
+ .header_area {
+	 border-bottom: 1px solid #ccd6eb !important;
+ }
+ 
+ .header_area .favourite-area a, 
+ .header_area .user-login-info a, 
+ .header_area .cart-area a {
+	 border-left: 1px solid #ccd6eb !important;
+ }
+ 
+ .header_area .classynav ul li a {
+	 color: #3a8652 !important; 
+ }
+ 
+ .breakpoint-off .classynav ul li .dropdown {
+	 background-color: #ccd6eb !important;
+ }
+ 
+ .classynav ul li .megamenu .single-mega .title {
+	 border-bottom: 1px solid #3a8652  !important;
+ }
+ 
+ .classynav ul li.megamenu-item>a:after {
+	 color: #3a8652 !important; 
+ }
+ 
+ .classynav ul li .megamenu .single-mega.cn-col-4 {
+	 border-right: 1px solid #3a8652  !important;
+ }
+ 
+ .single-product-wrapper {
+	 background-color: #ccd6eb !important;
+ }
+ 
+  h1, h2, h3, h4, h5, h6 {
+	 color: #3a8652 !important; 
+ }
+	
+	.breakpoint-off .classynav ul li .megamenu {
+		background-color: #ccd6eb !important;  
+	}
+	
+	.classynav ul li .megamenu .single-mega.cn-col-3,.classynav ul li .megamenu .single-mega.cn-col-4,.classynav ul li .megamenu .single-mega.cn-col-5 {
+		border-bottom:#f6bd60 !important; 
+		}
+		
+	.header_area .search-area form {
+		border-left: 1px solid #ccd6eb !important;
+	}
+		
+	.header_area .search-area form input {
+		background-color: #ccd6eb !important; 
+		color: #3a8652 !important;
+	}
+	
+	.header_area .search-area form button {
+		color: #3a8652 !important; 
+	}
+	
+	::placeholder {
+		color: #3a8652 !important; 
+	}
+	
