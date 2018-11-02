@@ -117,3 +117,15 @@
 	.header_area .favourite-area a span, .header_area .user-login-info a span, .header_area .cart-area a span {
 		color: #993955 !important;
 	}
+	
+	
+	
+	.login-new {
+		background-color: #ccd6eb !important;
+		border: 1px solid #993955 !important;
+		padding-top: 60px !important;
+	}
+	
+	.essence-forgot {
+		color:#993955 !important;
+	}
