@@ -123,9 +123,25 @@
 	.login-new {
 		background-color: #ccd6eb !important;
 		border: 1px solid #993955 !important;
-		padding-top: 60px !important;
+		padding-top: 30px !important;
+		padding-bottom: 30px !important;
+		margin-top: 60px !important;
+		margin-bottom: 200px !important;
 	}
 	
 	.essence-forgot {
 		color:#993955 !important;
+	}
+	
+	.footer_area {
+		padding-top: 1px !important;
+		padding-bottom: 10px !important;
+	}
+	
+	
+	
+	
+	.header_area .classynav ul li .megamenu li a, .header_area .classynav ul li .dropdown li a {
+		background-color: #ccd6eb !important;
+		border: none;
 	}
