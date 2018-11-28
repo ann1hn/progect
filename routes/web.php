@@ -17,3 +17,4 @@ Auth::routes();
 
 Route::get('/catalog/{id}', 'ProductController@getCatalog');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('{url}', 'PageController@getIndex');             // ВСЕГДА ПОСЛЕДНИЙ
