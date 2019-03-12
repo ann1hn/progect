@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 	
     <!-- Title  -->
-    <title>Essence - Fashion Ecommerce Template</title>
+    <title> Интернет-магазин часов ""</title>
 
     <!-- Favicon  -->
 	<link href="{{asset('media/img/core-img/favicon.ico')}}" rel="icon" />
@@ -25,7 +25,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="{{asset('/')}}"><img src="{{asset('media/img/logo.png')}}" alt=""></a>
+                <a class="nav-brand" href="{{asset('/')}}"><img src="{{asset('media/img/logo.png')}}" alt="_____________"></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -39,14 +39,13 @@
                     <!-- Nav Start -->
                     <div class="classynav">
                         <ul>
-                            <li><a href="#">Shop</a	>					
+                            <li><a href="#">Магазин</a	>					
                                 <div class="megamenu">
 							           @foreach ($v_catalogs as $catalog)
 									    <ul class="single-mega cn-col-4">
                                         <li class="title"><a href="{{asset('catalog/'.$catalog->id)}}" class="list-group-item" >
                               {{$catalog->name}}
                           </a></li>
-                                        <li><a href="shop.html"> Place for photo</a></li>
                                     </ul>
                         
                              @endforeach	
@@ -55,8 +54,8 @@
                                 </div>
                             </li>
                             
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="{{asset('contact')}}">Contact</a></li>
+                            <li><a href="{{asset('contact')}}">Контакты</a></li>
+							<li><a href="blog.html">О нас</a></li>
                         </ul>
                     </div>
                     <!-- Nav End -->
@@ -68,7 +67,7 @@
                 <!-- Search Area -->
                 <div class="search-area">
                     <form action="#" method="post">
-                        <input type="search" name="search" id="headerSearch" placeholder="Type for search">
+                        <input type="search" name="search" id="headerSearch" placeholder="Нажмите для поиска">
                         <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </form>
                 </div>

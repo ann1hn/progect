@@ -25,7 +25,9 @@ trait FileUploadTrait
                     $filename = time() . '-' . $request->file($key)->getClientOriginalName();
                     $file     = $request->file($key);
                     $image    = Image::make($file);
-                    Image::make($file)->resize(50, 50)->save(public_path('uploads/thumb') . '/' . $filename);
+                    Image::make($file)->resize(255, null, function($constraint){
+					$constraint->aspectRatio();
+					})->save(public_path('uploads/thumb') . '/' . $filename);
                     $width  = $image->width();
                     $height = $image->height();
                     if ($width > $request->{$key . '_w'} && $height > $request->{$key . '_h'}) {
