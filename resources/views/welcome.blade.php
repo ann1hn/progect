@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center">
-                        <h2>Популярные изделия</h2>
+                        <h2>Новые изделия</h2>
                     </div>
                 </div>
             </div>
@@ -66,9 +66,9 @@
             <div class="row justify-content-center">
                 <!-- Single Catagory -->
                 <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(media/img/bg-img/bg-2.jpg);">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(media/img/bg-img/bg-22.png);">
                         <div class="catagory-content">
-                            <a href="#">Золотые</a>
+                            <a href="#">Женские</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(media/img/bg-img/bg-3.jpg);">
                         <div class="catagory-content">
-                            <a href="#">Платиновые</a>
+                            <a href="#">Мужские</a>
                         </div>
                     </div>
                 </div>
