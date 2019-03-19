@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 	
     <!-- Title  -->
-    <title> Интернет-магазин часов ""</title>
+    <title> Интернет-магазин часов "8 o'clock" </title>
 
     <!-- Favicon  -->
 	<link href="{{asset('media/img/core-img/favicon.ico')}}" rel="icon" />
