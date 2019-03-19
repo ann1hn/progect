@@ -25,7 +25,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="{{asset('/')}}"><img src="{{asset('media/img/logo.png')}}" alt="_____________"></a>
+                <a class="nav-brand" href="{{asset('/')}}"><img src="{{asset('media/img/logoo.png')}}" alt="_____________"></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
