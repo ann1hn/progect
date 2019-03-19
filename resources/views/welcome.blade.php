@@ -27,6 +27,14 @@
                                 <img src="{{asset('uploads/thumb/'.$one->picture)}}" alt="">
                                 <!-- Hover Thumb -->
                                 <img class="hover-img" src="{{asset('uploads/'.$one->picture)}}" alt="">
+								
+								<!-- Product Badge -->
+										@if($one->procent!=NULL)
+                                        <div class="product-badge offer-badge">
+                                            <span>-{{$one->procent}}%</span>
+                                        </div>
+										@endif
+								
                                 <!-- Favourite -->
                                 <div class="product-favourite">
                                     <a href="#" class="favme fa fa-heart"></a>
@@ -38,7 +46,13 @@
                                 <a href="single-product-details.html">
                                     <h6>{{$one->name}}</h6>
                                 </a>
-                                <p class="product-price">{{$one->price}}</p>
+								
+								@if($one->procent!=NULL)
+											<p class="product-price"><span class="old-price">{{$one->price}} РУБ.</span> <?=(int)$one->price-((int)$one->price*(int)$one->procent/100)?> РУБ.</p>
+											@else
+												<p class="product-price">{{$one->price}} РУБ.</p>
+									    
+									@endif
 
                                 <!-- Hover Content -->
                                 <div class="hover-content">

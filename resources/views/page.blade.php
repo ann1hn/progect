@@ -91,13 +91,13 @@
         </div>
 
         <div class="contact-info">
-            <h2>How to Find Us</h2>
-            <p>Mauris viverra cursus ante laoreet eleifend. Donec vel fringilla ante. Aenean finibus velit id urna vehicula, nec maximus est sollicitudin.</p>
+            <h2>КАК НАС НАЙТИ</h2>
+            <p> Магазин в центре города ст. м. Академия наук. Предоставляем бесплатные парковочные места клиентам.</p>
 
             <div class="contact-address mt-50">
-                <p><span>address:</span> 10 Suffolk st Soho, London, UK</p>
-                <p><span>telephone:</span> +12 34 567 890</p>
-                <p><a href="mailto:contact@essence.com">contact@essence.com</a></p>
+                <p><span>адрес:</span> УЛ. П. БРОВКИ 6, МИНСК, РБ</p>
+                <p><span>телефон:</span> +375 (25) 25-75-725</p>
+                <p><a href="mailto:contact@gclock.by">contact@gclock.by</a></p>
             </div>
         </div>
 

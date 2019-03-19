@@ -54,7 +54,7 @@
                                 </div>
                             </li>
                             
-                            <li><a href="{{asset('contact')}}">Контакты</a></li>
+                            <li><a href="{{asset('page')}}">Контакты</a></li>
 							<li><a href="blog.html">О нас</a></li>
                         </ul>
                     </div>
