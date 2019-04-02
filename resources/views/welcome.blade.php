@@ -88,7 +88,7 @@
                 </div>
                 <!-- Single Catagory -->
                 <div class="col-12 col-sm-6 col-md-4">
-                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(media/img/bg-img/bg-3.jpg);">
+                    <div class="single_catagory_area d-flex align-items-center justify-content-center bg-img" style="background-image: url(media/img/bg-img/bg-33.jpg);">
                         <div class="catagory-content">
                             <a href="#">Мужские</a>
                         </div>

@@ -372,7 +372,7 @@ body {
   border-radius: 0;
   background: none;
   border: 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #ccd6eb;
 }
 .form-group.form-md-line-input .input-group + .input-group-control {
   padding-top: 0;
@@ -567,7 +567,7 @@ body {
   transition-duration: 0.3s;
 }
 .md-checkbox label > span.inc {
-  background: #fff;
+  background: #ccd6eb;
   left: -20px;
   top: -20px;
   height: 60px;
@@ -579,7 +579,7 @@ body {
 }
 .md-checkbox label > .box {
   top: 0px;
-  border: 2px solid #666;
+  border: 2px solid #ccd6eb;
   height: 20px;
   width: 20px;
   z-index: 5;
@@ -4318,11 +4318,11 @@ Customized Bootstrap Panels
 }
 
 .panel-default {
-  border-color: #e0e0e0;
+  border-color: #ccd6eb;
 }
 .panel-default > .panel-heading {
   color: #333333;
-  background-color: #f9f9f9;
+  background-color: #ccd6eb;
   border-color: #e0e0e0;
 }
 .panel-default > .panel-heading + .panel-collapse .panel-body {
