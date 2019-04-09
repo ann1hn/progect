@@ -9,7 +9,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">{{ trans('quickadmin::auth.login-login') }}</div>
+                <div class="panel-heading">Добро пожаловать, авторизуйтесь!</div>
                 <div class="panel-body">
                     @if (count($errors) > 0)
                         <div class="alert alert-danger">
@@ -43,7 +43,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-md-4 control-label">{{ trans('quickadmin::auth.login-password') }}</label>
+                            <label class="col-md-4 control-label">Пароль</label>
 
                             <div class="col-md-6">
                                 <input type="password"
@@ -56,7 +56,7 @@
                             <div class="col-md-6 col-md-offset-4">
                                 <label>
                                     <input type="checkbox"
-                                           name="remember">{{ trans('quickadmin::auth.login-remember_me') }}
+                                           name="remember"> Запомнить меня
                                 </label>
                             </div>
                         </div>
@@ -75,6 +75,7 @@
             </div>
         </div>
     </div>
+	
 </div>
 @include('admin.partials.footer')
 

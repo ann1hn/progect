@@ -38,7 +38,7 @@ General reset
 ***/
 /* Set default body */
 body {
-  color: #ccd6eb;
+  color: #333333;
   font-family: "Open Sans", sans-serif;
   padding: 0px !important;
   margin: 0px !important;
@@ -4323,7 +4323,8 @@ Customized Bootstrap Panels
 .panel-default > .panel-heading {
   color: #333333;
   background-color: #ccd6eb;
-  border-color: #e0e0e0;
+  border-color: #993955;
+  font-size: 14pt;
 }
 .panel-default > .panel-heading + .panel-collapse .panel-body {
   border-top-color: #e0e0e0;
