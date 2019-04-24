@@ -13,4 +13,9 @@ class ProductController extends Controller
 		$products=Product::where('catalog_id', $cat->name)->get();
 		return view('products', compact('cat', 'products'));
 	}
+	
+	public function getOne($id=null) {
+		$obj=Product::find($id);
+		return view('products', compact('obj'));
+	}
 }
