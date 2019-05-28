@@ -133,15 +133,13 @@
                                         </div>
 										@endif
                                         <!-- Favourite -->
-                                        <div class="product-favourite">
-                                            <a href="#" class="favme fa fa-heart"></a>
-                                        </div>
+                                        
                                     </div>
 
                                     <!-- Product Description -->
                                     <div class="product-description">
                                         <span>{{$one->catalog_id}}</span>
-                                        <a href="single-product-details.html">
+                                        <a href="{{asset('product/'.$one->id)}}">
                                             <h6>{{$one->name}}</h6>
                                         </a>
 										

@@ -10,4 +10,8 @@ class OrderController extends Controller
 		setcookie($id, '1', time()+3600, '/');
 		return redirect()->back();
 	}
+	public function getDelete($id){
+		setcookie($id, '', time()-3600, '/');
+		return redirect()->back();
+	}
 }

@@ -55,7 +55,7 @@
                             </li>
                             
                             <li><a href="{{asset('page')}}">Контакты</a></li>
-							<li><a href="#">О нас</a></li>
+
                         </ul>
                     </div>
                     <!-- Nav End -->
@@ -71,10 +71,7 @@
                         <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </form>
                 </div>
-                <!-- Favourite Area -->
-                <div class="favourite-area">
-                    <a href="#"><img src="{{asset('media/img/core-img/heart.svg')}}" alt=""></a>
-                </div>
+                
                 <!-- User Login Info -->
                 <div class="user-login-info">
                     <a href="{{asset('login')}}"><img src="{{asset('media/img/core-img/user.svg')}}" alt=""></a>
@@ -105,20 +102,27 @@
             <div class="cart-list">
 			
                 <!-- Single Cart Item -->
-				
+				<?php
+				$sum=0;
+				?>
 				@foreach($arr as $key=>$obj)
+				
+				<?php
+				$sum+=$obj->price;
+				?>
+				
                 <div class="single-cart-item">
-                    <a href="{{asset('sproduct')}}" class="product-image">
+                    <div class="product-image">
                         <img src="{{asset('uploads/thumb/' .$obj->picture)}}" class="cart-thumb" alt="">
                         <!-- Cart Item Desc -->
                         <div class="cart-item-desc">
-                          <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
-                            <span class="badge">{{$obj->name}}</span>
+                          <span class="product-remove"><a class="fa fa-close" href={{asset('basket/delete/'.$obj->id)}}></a></span>
+                            <span class="badge"><a href="{{asset('product/'.$obj->id)}}">{{$obj->name}}</a></span>
                            
   
                             <p class="price">{{$obj->price}} РУБ.</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
 				@endforeach
          
@@ -129,10 +133,9 @@
 
                 <h2>Заказано</h2>
                 <ul class="summary-table">
-                    <li><span>На сумму:</span> <span>$274.00</span></li>
+                    <li><span>На сумму:</span> <span>{{$sum}}</span></li>
                     <li><span>Доставка:</span> <span>Бесплатно</span></li>
-                    <li><span>Скидки:</span> <span>-15%</span></li>
-                    <li><span>Итого:</span> <span>$232.00</span></li>
+                    <li><span>Итого:</span> <span>{{$sum}}</span></li>
                 </ul>
                 <div class="checkout-btn mt-100">
                     <a href="checkout.html" class="btn essence-btn">check out</a>

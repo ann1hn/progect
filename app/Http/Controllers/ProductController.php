@@ -16,6 +16,6 @@ class ProductController extends Controller
 	
 	public function getOne($id=null) {
 		$obj=Product::find($id);
-		return view('products', compact('obj'));
+		return view('product', compact('obj'));
 	}
 }

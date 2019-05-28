@@ -16,6 +16,8 @@ Route::get('/', 'BaseController@getIndex' );
 Auth::routes();
 
 Route::get('/catalog/{id}', 'ProductController@getCatalog');
+Route::get('product/{id}', 'ProductController@getOne');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('basket/add/{id}', 'OrderController@getAdd');
+Route::get('basket/delete/{id}', 'OrderController@getDelete');
 Route::get('{url}', 'PageController@getIndex');             // ВСЕГДА ПОСЛЕДНИЙ
